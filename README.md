@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist vivekmarakana/yii2-image-gallery-selector "dev-master"
+php composer.phar require --prefer-dist fbalabanov/yii2-image-selector "dev-master"
 ```
 
 or add
 
 ```
-"vivekmarakana/vivekmarakana/yii2-image-gallery-selector": "dev-master"
+"fbalabanov/yii2-image-selector": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -29,6 +29,6 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?=
-    \vivekmarakana\widgets\GallerySelector::widget(['images' => $images]);
+    \fbalabanov\widgets\GallerySelector::widget(['images' => $images]);
 ?>
 ```
