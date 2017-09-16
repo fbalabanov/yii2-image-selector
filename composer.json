@@ -1,0 +1,22 @@
+{
+    "name": "buddysoft/yii2-image-gallery-selector",
+    "description": "multiple image selector from gallery for yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","gallery-selector","image-selector"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuwanwei",
+            "email": "liuwanwei@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "buddysoft\\widgets\\": "src",
+            "buddysoft\\helpers\\": "helpers"
+        }
+    }
+}

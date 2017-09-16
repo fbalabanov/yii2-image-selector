@@ -1,0 +1,100 @@
+.gallery-upload-container,
+.gallery-selector-container{
+    font-size: 0;
+    /*text-align: center;*/
+}
+
+.gallery-selector-widget .selected-img,
+.gallery-upload-container .gallery-uploader-image,
+.gallery-selector-container .gallery-selector-image{
+    position: relative;
+    display: inline-block;
+    background-color: #f3f3f3;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: top;
+}
+
+.gallery-upload-container .image-placeholder,
+.gallery-upload-container .gallery-uploader-image,
+.gallery-selector-container .gallery-selector-image{
+    border: 1px solid #e7e7e7;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.gallery-selector-container .gallery-selector-image:hover{
+    border: 1px solid #C7C7C7;
+}
+
+.gallery-selector-container .gallery-selector-image .glyphicon,
+.gallery-selector-widget .selected-img .glyphicon{
+    display: none;
+    position: absolute;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.gallery-selector-widget .selected-img:hover .glyphicon,
+.gallery-selector-container .gallery-selector-image.added .glyphicon{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.gallery-selector-widget .selected-img:hover:before,
+.gallery-selector-container .gallery-selector-image.added:before{
+    display: block;
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.gallery-selector-container .gallery-selector-image .glyphicon{
+    right: 10px;
+    bottom: 10px;
+    top: auto;
+    font-size: 25px;
+}
+
+.gallery-selector-widget .selected-img .glyphicon{
+    top: 5px;
+    right: 5px;
+    font-size: 15px;
+}
+
+.gallery-selector-widget .no-image-selected{
+    font-style: oblique;
+    font-size: 13px;
+}
+
+.gallery-selector-widget .selected-images{
+    margin: 0 -5px;
+}
+
+.gallery-selector-widget .selected-img{
+    width: 80px;
+    height: 80px;
+    margin: 0 5px 5px 5px;
+}
+
+.gallery-upload-container .image-placeholder{
+    display: inline-block;
+    border: 2px solid #9A9999;
+    background-color: #f3f3f3;
+}
+
+.gallery-upload-container .image-placeholder .glyphicon{
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin: 47px 0;
+    color: #9A9999;
+}
