@@ -6,7 +6,7 @@
     <div class="clearfix">
         <div>
             <!-- <label for=""><?=$title?></label> -->
-            <div class="no-image-selected" style="display:none">没有选择图片</div>
+            <div class="no-image-selected" style="display:none">No Topic selected</div>
             <div class="selected-images">
                 <div class="selected-img" style="background-image: url('<?= $defaultImage['url']?>')" data-image-id="<?= $defaultImage['id'] ?>" related-id="<?= $relatedId ?>"
                         <input type="hidden" name="selected-image-ids[]" value="<?= $defaultImage['id']?>">
@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="clearfix"></div>
-            <button type="button" data-toggle="modal" data-target="#<?=$id?>-modal" class="btn btn-sm btn-default btn-select-images" style="margin-top: 5px;">选择图片</button>
+            <button type="button" data-toggle="modal" data-target="#<?=$id?>-modal" class="btn btn-sm btn-default btn-select-images" style="margin-top: 5px;">Select Topic</button>
         </div>
     </div>
 
@@ -29,8 +29,8 @@
                     <form class="form-inline">
                       <div class="form-group">
                         <!-- <label for="exampleInputName2">名字</label> -->
-                        <input type="text" class="form-control" id="image-name" placeholder="输入食物名字进行搜索">
-                        <input type="text" class="form-control" id="image-pinyin" placeholder="输入食物字母进行搜索">
+                        <input type="text" class="form-control" id="image-name" placeholder="Enter the topic name to search">
+                        <input type="text" class="form-control" id="image-pinyin" placeholder="Enter the topic letter to search">
                       </div>
                       <!-- <button type="submit" class="btn btn-default">查询</button> -->
                     </form>

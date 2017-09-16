@@ -7,8 +7,8 @@ class GallerySelector extends \yii\base\Widget {
 
     public $images = [];
     public $id;
-    public $title = "Images";
-    public $modalTitle = "请选择";
+    public $title = "Topic";
+    public $modalTitle = "Select Topics of your interests";
     public $uploadKey = "uploaded-images[]";
     
     public $defaultImage = null;
